@@ -41,6 +41,14 @@ Plug 'airblade/vim-gitgutter'
 " markdown plugins
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_math = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_toml_frontmatter = 1
+let g:vim_markdown_json_frontmatter = 1
+
+" csv plugins
+Plug 'chrisbra/csv.vim'
 
 
 call plug#end()
@@ -81,6 +89,16 @@ set ruler
 set showmatch
 set autoindent
 set smartindent
+
+" indentation
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" folding
+set foldenable
+set foldmethod=marker
+set foldcolumn=2
 
 " enable syntax
 syntax enable

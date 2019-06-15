@@ -13,10 +13,18 @@ Oh-My-VIM is a framework for simplifying your VIM configuration, using vim-plug
 
 ### Installation
 
-You can install Oh-My-VIM using `curl`:
+You can install Oh-My-VIM using this command below:
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/youdang/oh-my-vim/master/scripts/install.sh)"
+```
+
+### Uninstallation
+
+You can uninstall Oh-My-VIM using this command below:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/youdang/oh-my-vim/master/scripts/uninstall.sh)"
 ```
 
 ## License
