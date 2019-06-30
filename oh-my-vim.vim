@@ -50,6 +50,10 @@ let g:vim_markdown_json_frontmatter = 1
 " csv plugins
 Plug 'chrisbra/csv.vim'
 
+" import custom plugins
+if filereadable(expand('~/.oh-my-vim/custom_plugins.vim'))
+    source ~/.oh-my-vim/custom_plugins.vim
+endif
 
 call plug#end()
 
@@ -107,4 +111,3 @@ syntax on
 " display the blank characters
 set list
 set listchars=tab:>-,trail:.
-
