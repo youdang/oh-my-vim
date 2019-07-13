@@ -8,6 +8,7 @@ Oh-My-VIM is a framework for simplifying your VIM configuration, using vim-plug
 
 - *nix OS (macOS or GNU/Linux)
 - [VIM](http://www.vim.org/) should be installed (v8.0 or above)
+- [vim-plug](https://github.com/junegunn/vim-plug) should be installed
 - `curl` should be installed
 - `git` should be installed
 
